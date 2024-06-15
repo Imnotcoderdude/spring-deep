@@ -1,7 +1,7 @@
 package com.sparta.newsfeed.controller;
 
-import com.sparta.newsfeed.dto.CommentDto.CommentRequestDto;
-import com.sparta.newsfeed.dto.CommentDto.CommentResponseDto;
+import com.sparta.newsfeed.dto.comment.CommentRequestDto;
+import com.sparta.newsfeed.dto.comment.CommentResponseDto;
 import com.sparta.newsfeed.service.CommentService;
 import io.swagger.v3.oas.annotations.Operation;
 import jakarta.servlet.http.HttpServletRequest;

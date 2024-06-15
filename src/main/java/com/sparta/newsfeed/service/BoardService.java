@@ -2,8 +2,8 @@ package com.sparta.newsfeed.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sparta.newsfeed.dto.BoardDto.BoardRequestDto;
-import com.sparta.newsfeed.dto.BoardDto.BoardResponseDto;
+import com.sparta.newsfeed.dto.board.BoardRequestDto;
+import com.sparta.newsfeed.dto.board.BoardResponseDto;
 import com.sparta.newsfeed.entity.Board;
 import com.sparta.newsfeed.entity.Likes.ContentsLike;
 import com.sparta.newsfeed.entity.Likes.LikeContents;

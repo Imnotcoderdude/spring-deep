@@ -1,6 +1,6 @@
 package com.sparta.newsfeed.controller;
 
-import com.sparta.newsfeed.dto.BoardDto.BoardResponseDto;
+import com.sparta.newsfeed.dto.board.BoardResponseDto;
 import com.sparta.newsfeed.service.FeedService;
 import io.swagger.v3.oas.annotations.Operation;
 import jakarta.servlet.http.HttpServletRequest;

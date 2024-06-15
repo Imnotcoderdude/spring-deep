@@ -1,8 +1,8 @@
 package com.sparta.newsfeed.service;
 
 
-import com.sparta.newsfeed.dto.CommentDto.CommentRequestDto;
-import com.sparta.newsfeed.dto.CommentDto.CommentResponseDto;
+import com.sparta.newsfeed.dto.comment.CommentRequestDto;
+import com.sparta.newsfeed.dto.comment.CommentResponseDto;
 import com.sparta.newsfeed.entity.Board;
 import com.sparta.newsfeed.entity.Comment;
 import com.sparta.newsfeed.entity.Likes.ContentsLike;

@@ -1,4 +1,4 @@
-package com.sparta.newsfeed.dto.UserDto;
+package com.sparta.newsfeed.dto.user;
 
 import com.sparta.newsfeed.entity.Users.User;
 import lombok.Getter;

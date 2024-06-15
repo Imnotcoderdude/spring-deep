@@ -1,8 +1,6 @@
-package com.sparta.newsfeed.dto.UserDto;
+package com.sparta.newsfeed.dto.user;
 
 
-import com.sparta.newsfeed.entity.Users.UserStatus;
-import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
@@ -10,7 +8,7 @@ import lombok.Getter;
 
 
 @Getter
-public class SignUpRequestDto {
+public class LoginUpRequestDto {
 
     //아이디
     @NotBlank(message = "userId는 비워둘 수 없습니다.")
@@ -24,21 +22,4 @@ public class SignUpRequestDto {
     @Pattern(regexp = "^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[~!@#$%^&*()_+])[A-Za-z\\d~!@#$%^&*()_+]{10,}$"
             , message = "password는 대소문자 포함 영문, 숫자, 특수문자를 최소 1글자씩 포함해야 합니다.")
     private String password;
-
-    //이름
-    @NotBlank(message = " username 비워둘 수 없습니다.")
-    @Pattern(regexp = "^[\\s\\S]*$", message = "username 공백을 포함할 수 없습니다.")
-    private String username = "username";
-
-    //이매일
-    @Email
-    @NotBlank(message = " email 비워둘 수 없습니다.")
-    private String email;
-
-    //한줄 소개
-    @NotBlank(message = " one_liner 비워둘 수 없습니다.")
-    private String one_liner = "one_liner ";
-
-    //유저 상태 코드
-    private final UserStatus userStatus = UserStatus.ACTIVE;
 }

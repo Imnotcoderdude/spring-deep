@@ -1,4 +1,4 @@
-package com.sparta.newsfeed.dto.FollowDto;
+package com.sparta.newsfeed.dto.follow;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

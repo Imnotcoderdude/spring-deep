@@ -1,9 +1,9 @@
 package com.sparta.newsfeed.service;
 
-import com.sparta.newsfeed.dto.EmailDto.EmailRequestDto;
-import com.sparta.newsfeed.dto.EmailDto.ReVerifyEMailRequestDto;
-import com.sparta.newsfeed.dto.UserDto.LoginUpRequestDto;
-import com.sparta.newsfeed.dto.UserDto.SignUpRequestDto;
+import com.sparta.newsfeed.dto.email.EmailRequestDto;
+import com.sparta.newsfeed.dto.email.ReVerifyEMailRequestDto;
+import com.sparta.newsfeed.dto.user.LoginUpRequestDto;
+import com.sparta.newsfeed.dto.user.SignUpRequestDto;
 import com.sparta.newsfeed.entity.EmailVerification;
 import com.sparta.newsfeed.entity.Users.User;
 import com.sparta.newsfeed.entity.Users.UserStatus;

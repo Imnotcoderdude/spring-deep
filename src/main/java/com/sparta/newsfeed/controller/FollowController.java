@@ -1,8 +1,8 @@
 package com.sparta.newsfeed.controller;
 
-import com.sparta.newsfeed.dto.FollowDto.FollowRequestDto;
-import com.sparta.newsfeed.dto.FollowDto.FollowResponseDto;
-import com.sparta.newsfeed.dto.FollowDto.FollowStatusResponseDto;
+import com.sparta.newsfeed.dto.follow.FollowRequestDto;
+import com.sparta.newsfeed.dto.follow.FollowResponseDto;
+import com.sparta.newsfeed.dto.follow.FollowStatusResponseDto;
 import com.sparta.newsfeed.service.FollowService;
 import io.swagger.v3.oas.annotations.Operation;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,8 +1,8 @@
 package com.sparta.newsfeed.service;
 
-import com.sparta.newsfeed.dto.FollowDto.FollowRequestDto;
-import com.sparta.newsfeed.dto.FollowDto.FollowResponseDto;
-import com.sparta.newsfeed.dto.FollowDto.FollowStatusResponseDto;
+import com.sparta.newsfeed.dto.follow.FollowRequestDto;
+import com.sparta.newsfeed.dto.follow.FollowResponseDto;
+import com.sparta.newsfeed.dto.follow.FollowStatusResponseDto;
 import com.sparta.newsfeed.entity.Follow;
 import com.sparta.newsfeed.entity.Users.User;
 import com.sparta.newsfeed.jwt.util.JwtTokenProvider;

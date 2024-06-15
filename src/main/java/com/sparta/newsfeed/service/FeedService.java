@@ -1,6 +1,6 @@
 package com.sparta.newsfeed.service;
 
-import com.sparta.newsfeed.dto.BoardDto.BoardResponseDto;
+import com.sparta.newsfeed.dto.board.BoardResponseDto;
 import com.sparta.newsfeed.entity.Board;
 import com.sparta.newsfeed.entity.Follow;
 import com.sparta.newsfeed.entity.Users.User;
