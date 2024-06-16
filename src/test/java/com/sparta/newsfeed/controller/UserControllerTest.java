@@ -73,7 +73,7 @@ class UserControllerTest {
         requestDto.setEmail("test@example.com");
         requestDto.setOne_liner("Hello World!");
 
-        String returnMessage = requestDto.getEmail() + " .";
+        String returnMessage = requestDto.getEmail() + "오타를 내도 정상적으로 테스트가 완료 되었다는 말만 나온다.";
 
         // Mock 설정: signUpService의 addUser 메서드가 호출되면 "expectedMessage"을 반환하도록 설정합니다.
         given(signUpService.addUser(any(SignUpRequestDto.class))).willReturn(returnMessage);
