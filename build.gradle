@@ -76,6 +76,17 @@ dependencies {
 
     // Spring Boot Starter Mail 의존성 추가
     implementation 'org.springframework.boot:spring-boot-starter-mail'
+
+    // JUnit5
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    // Mockito
+    testImplementation("org.mockito:mockito-core")
+    testImplementation("org.mockito:mockito-junit-jupiter")
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
 tasks.named('test') {
