@@ -35,4 +35,16 @@ class SignUpRequestDtoTest {
         assertEquals("oneLinerTest", requestDto.getOne_liner());
     }
 
+    @Test
+    void testValidation() {
+        SignUpRequestDto requestDto = new SignUpRequestDto();
+        requestDto.setUserId("");
+        requestDto.setUsername("T");
+        requestDto.setPassword("pass");
+        requestDto.setEmail("invalidEmail");
+        requestDto.setOne_liner("");
+
+        Set<ConstraintViolation<SignUpRequestDto>> violations = validator.validate(requestDto);
+        assertFalse(violations.isEmpty());
+    }
 }
