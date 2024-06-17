@@ -72,9 +72,9 @@ class UserControllerTest {
         SignUpRequestDto requestDto = new SignUpRequestDto();
         requestDto.setUserId("testUserTest");
         requestDto.setUsername("Test User");
-        requestDto.setPassword("Password1!");
+        requestDto.setPassword("TestPassword1!");
         requestDto.setEmail("test@example.com");
-        requestDto.setOne_liner("Hello World!");
+        requestDto.setOne_liner("oneLinerTest");
 
         String returnMessage = requestDto.getEmail() + " 로 발송된 인증코드를 확인해주세요.";
 
